@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +7,5 @@ import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 })
 export class AppComponent {
   title = 'pentahijueputa';
-  faTiktok = faTiktok;
 
 }
