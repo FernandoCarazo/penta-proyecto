@@ -22,8 +22,6 @@ figure img {
 ul {
     display: flex;
     align-items: center;
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -43,6 +41,13 @@ a:active {
     color: #fcfcfc
 }
 
-.socials {
-    margin: 10px;
+.socials {}
+
+.footer {
+    height: 15rem;
+    width: 100%;
+    background: var(--top-bar-background);
+    bottom: 0;
+    position: absolute;
+
 }
