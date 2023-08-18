@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MainLayout } from './layouts/main/main.layout';
+import { CarouselComponent } from './carousel.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { RouterModule } from '@angular/router';
+
+
 
 @NgModule({
   declarations: [
-    MainLayout
+    CarouselComponent
   ],
   imports: [
     CommonModule,
-    FontAwesomeModule,
-    RouterModule
+    FontAwesomeModule
+  ],
+  exports: [
+    CarouselComponent
   ]
 })
-export class SharedModule { 
-
-}
+export class CarouselModule { }

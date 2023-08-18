@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SharedModule } from './modules/shared/shared.module';
+import { CarouselModule } from './services/carousel/carousel.module';
 
 
 
@@ -16,7 +17,8 @@ import { SharedModule } from './modules/shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    SharedModule
+    SharedModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

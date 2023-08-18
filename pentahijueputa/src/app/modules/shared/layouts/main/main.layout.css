@@ -3,26 +3,26 @@ header {
     background: var(--top-bar-background);
     align-items: center;
     justify-content: center;
-
 }
 
 figure {
     height: 80%;
-    align-items: center;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 figure img {
-    height: 100%;
+    height: 80%;
     width: auto;
+    cursor: pointer;
 }
 
 ul {
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 a {
@@ -30,10 +30,10 @@ a {
     font-weight: 700;
     font-size: 1.6rem;
     font-weight: 600;
-    display: inline-block;
     padding: 1rem;
     transition: background-color 0.2s linear;
-    color: #d3cdcd
+    color: #d3cdcd;
+
 }
 
 a:hover,
@@ -41,13 +41,19 @@ a:active {
     color: #fcfcfc
 }
 
-.socials {}
+.socials {
+    margin: 10px;
+    align-items: right;
+    justify-content: right;
+}
 
 .footer {
     height: 15rem;
     width: 100%;
     background: var(--top-bar-background);
     bottom: 0;
-    position: absolute;
+}
 
+main {
+    padding: 2rem;
 }

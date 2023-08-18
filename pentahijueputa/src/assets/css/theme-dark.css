@@ -6,4 +6,6 @@ body.dark {
     --color-scrollbar-light: rgba(255, 255, 255, 0.1);
     --main-hover-background: rgba(255, 255, 255, 0.1);
 
+    /*STORE*/
+    --store-list-background: #fff;
 }

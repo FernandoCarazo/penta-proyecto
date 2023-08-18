@@ -1,13 +1,17 @@
 <header>
-    <figure>
-        <img src="assets\img\pentahijueputa.png" alt="Pentahijueputa" />
-    </figure>
+
+    <a routerLink="/">
+        <figure>
+            <img src="assets\img\pentahijueputa.png" alt="Pentahijueputa" />
+        </figure>
+    </a>
+
     <ul>
         <li>
             <a routerLink="/">NOTICIAS</a>
         </li>
         <li>
-            <a routerLink="/">TIENDA</a>
+            <a routerLink="/tienda">TIENDA</a>
         </li>
         <li>
             <a routerLink="/">DISCOGRAFIA</a>
@@ -15,11 +19,11 @@
     </ul>
     <ul class="socials">
         <li>
-            <a routerLink="/"><fa-icon [icon]="faTiktok"></fa-icon></a>
+            <a href="https://www.tiktok.com/@pentahijueputa"><fa-icon [icon]="faTiktok"></fa-icon></a>
 
         </li>
         <li>
-            <a routerLink="/"><fa-icon [icon]="faInstagramSquare"></fa-icon></a>
+            <a href="https://www.instagram.com/pentahijueputa/"><fa-icon [icon]="faInstagramSquare"></fa-icon></a>
         </li>
         <li>
             <a routerLink="/"><fa-icon [icon]="faYoutube"></fa-icon></a>
@@ -28,13 +32,10 @@
     </ul>
 </header>
 <main>
-
+    <router-outlet></router-outlet>
 </main>
 
 <footer class="footer">
-    <div>
 
-    </div>
-</footer>
-<footer>
+
 </footer>
