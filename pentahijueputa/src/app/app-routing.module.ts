@@ -17,6 +17,11 @@ const routes: Routes = [
         path: 'tienda',
 
         loadChildren: () => import('@store/store.module').then(m => m.StoreModule)
+      },
+      {
+        path: 'discografia',
+
+        loadChildren: () => import('@discography/discography.module').then(m => m.DiscographyModule)
       }
     ]
   }
