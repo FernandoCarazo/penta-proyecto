@@ -8,11 +8,13 @@ html {
 
 body {
     font-family: 'Lato', Helvetica, sans-serif;
-    font-size: 1.4rem;
-    background: var(--body-background);
+    font-size: 1.5rem;
+    background: black;
     color: var(--main-text-color);
     scrollbar-color: var(--color-scrollbar-light) var(--color-scrollbar-light);
     scrollbar-width: thin;
+    padding-top: 5px;
+
 }
 
 body::-webkit-scrollbar-thumb {

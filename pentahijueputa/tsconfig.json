@@ -24,6 +24,9 @@
       "dom"
     ],
     "paths": {
+      "@home/*": [
+        "src/app/modules/home/*"
+      ],
       "@store/*": [
         "src/app/modules/store/*"
       ],

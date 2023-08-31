@@ -8,8 +8,14 @@ const routes: Routes = [
     component: MainLayout,
     children: [
       {
-        path: 'tienda',
+        path: '',
         /*CAMBIAR POR PAGINA DE FOTOS */
+        loadChildren: () => import('@home/home.module').then(m => m.HomeModule)
+      }
+      ,
+      {
+        path: 'tienda',
+
         loadChildren: () => import('@store/store.module').then(m => m.StoreModule)
       }
     ]

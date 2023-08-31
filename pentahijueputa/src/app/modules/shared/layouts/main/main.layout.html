@@ -1,41 +1,87 @@
-<header>
+<header id="header" [ngClass]="{'sticky': isSticky}">
 
-    <a routerLink="/">
-        <figure>
+    <figure class="img-container">
+        <a routerLink="/">
+
             <img src="assets\img\pentahijueputa.png" alt="Pentahijueputa" />
-        </figure>
-    </a>
+        </a>
+    </figure>
+    <nav>
+        <ul class="header-links">
+            <li>
+                <a routerLink="/">NOTICIAS</a>
+            </li>
+            <li>
+                <a routerLink="/tienda">TIENDA</a>
+            </li>
+            <li>
+                <a routerLink="/">DISCOGRAFIA</a>
+            </li>
+        </ul>
 
-    <ul>
-        <li>
-            <a routerLink="/">NOTICIAS</a>
-        </li>
-        <li>
-            <a routerLink="/tienda">TIENDA</a>
-        </li>
-        <li>
-            <a routerLink="/">DISCOGRAFIA</a>
-        </li>
-    </ul>
-    <ul class="socials">
-        <li>
-            <a href="https://www.tiktok.com/@pentahijueputa"><fa-icon [icon]="faTiktok"></fa-icon></a>
+        <ul class="header-socials">
+            <li>
+                <a href="https://www.instagram.com/pentahijueputa/"><fa-icon [icon]="faInstagram"></fa-icon></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@pentahijueputa"><fa-icon [icon]="faTiktok"></fa-icon></a>
 
-        </li>
-        <li>
-            <a href="https://www.instagram.com/pentahijueputa/"><fa-icon [icon]="faInstagramSquare"></fa-icon></a>
-        </li>
-        <li>
-            <a routerLink="/"><fa-icon [icon]="faYoutube"></fa-icon></a>
-        </li>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@Pentahijueputa"><fa-icon [icon]="faYoutube"></fa-icon></a>
+            </li>
 
-    </ul>
+        </ul>
+    </nav>
+
 </header>
+
 <main>
     <router-outlet></router-outlet>
 </main>
 
 <footer class="footer">
+    <article class="left-footer">
+        <h3>
+            NOSOTROS
+        </h3>
+        <p>Creators of the "Power Groove", Pantera flew the flag for heavy metal in the 90's compiling a long list of
+            gold and platinum album and home video releases, along with sold out arena tours across the globe. casino
+            free spins casino bonus/
+        </p>
+        <ul class="footer-socials">
+            <li>
+                <a href="https://www.instagram.com/pentahijueputa/"><fa-icon [icon]="faInstagram"></fa-icon></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@pentahijueputa"><fa-icon [icon]="faTiktok"></fa-icon></a>
 
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@Pentahijueputa"><fa-icon [icon]="faYoutube"></fa-icon></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@Pentahijueputa"><fa-icon [icon]="faSpotify"></fa-icon></a>
+            </li>
+
+        </ul>
+    </article>
+
+    <article class="right-footer">
+        <h3>
+            NOTICIAS
+        </h3>
+        <ul class="news">
+            <li class="new">
+                <a href="https://www.instagram.com/pentahijueputa/"><fa-icon [icon]="faCalendar"></fa-icon>CHIVO EN
+                    MUNCHEESE</a>
+            </li>
+            <li class="new">
+                <a href="https://www.instagram.com/pentahijueputa/"><fa-icon [icon]="faCalendar"></fa-icon>VISITA AL
+                    SANATORIO</a>
+            </li>
+        </ul>
+
+    </article>
 
 </footer>
