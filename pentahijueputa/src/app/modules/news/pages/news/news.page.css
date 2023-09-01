@@ -2,15 +2,26 @@
     box-sizing: border-box;
 }
 
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+
 .gallery {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 16px;
     max-width: 1400px;
     margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .gallery img {
@@ -18,13 +29,7 @@
     max-width: 380px;
     height: 300px;
     object-fit: cover;
-    border-radius: 8px;
-    opacity: 0.5;
-
-}
-
-a img:hover {
-    opacity: 1;
+    border-radius: 10px;
 }
 
 .gallery::after {

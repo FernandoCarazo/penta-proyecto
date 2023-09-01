@@ -52,6 +52,10 @@
     background-color: black;
 }
 
+.padding {
+    padding-top: 200px;
+}
+
 
 /* Clearfix (clear floats) .row::after {
     content: "";

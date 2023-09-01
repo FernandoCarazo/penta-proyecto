@@ -13,8 +13,11 @@ body {
     color: var(--main-text-color);
     scrollbar-color: var(--color-scrollbar-light) var(--color-scrollbar-light);
     scrollbar-width: thin;
-    padding-top: 5px;
+}
 
+.padding {
+    padding-top: 250px;
+    padding-bottom: 80px;
 }
 
 body::-webkit-scrollbar-thumb {

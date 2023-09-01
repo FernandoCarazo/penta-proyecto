@@ -35,6 +35,9 @@
       ],
       "@discography/*": [
         "src/app/modules/discography/*"
+      ],
+      "@news/*": [
+        "src/app/modules/news/*"
       ]
     }
   },

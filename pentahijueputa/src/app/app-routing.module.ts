@@ -22,6 +22,11 @@ const routes: Routes = [
         path: 'discografia',
 
         loadChildren: () => import('@discography/discography.module').then(m => m.DiscographyModule)
+      },
+      {
+        path: 'noticias',
+
+        loadChildren: () => import('@news/news.module').then(m => m.NewsModule)
       }
     ]
   }

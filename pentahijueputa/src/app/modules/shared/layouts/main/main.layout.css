@@ -82,7 +82,7 @@ li a:active {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -112,7 +112,8 @@ h3 {
     flex-wrap: wrap;
     justify-content: left;
     align-items: flex-start;
-    padding-top: 40%;
+    padding-top: 25%;
+
 }
 
 .footer-socials li a {
@@ -147,7 +148,7 @@ h3 {
 
 
 
-
+body {}
 
 
 
