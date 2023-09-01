@@ -11,8 +11,8 @@ import { faCalendar } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./main.layout.css']
 })
 export class MainLayout {
-  faTiktok = faTiktok
-  faYoutube = faYoutube
+  faTiktok = faTiktok;
+  faYoutube = faYoutube;
   faInstagram = faInstagram;
   faSpotify = faSpotify;
   faCalendar = faCalendar;

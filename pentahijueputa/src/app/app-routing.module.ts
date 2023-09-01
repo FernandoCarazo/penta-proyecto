@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MainLayout } from '@shared/layouts/main/main.layout';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -20,8 +21,7 @@ const routes: Routes = [
       },
       {
         path: 'discografia',
-
-        loadChildren: () => import('@discography/discography.module').then(m => m.DiscographyModule)
+        loadChildren: () => import('./modules/discography/discography.module').then(m => m.DiscographyModule)
       },
       {
         path: 'noticias',

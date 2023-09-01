@@ -1,0 +1,23 @@
+<div class="padding">
+
+    <body>
+        <div *ngIf="album">
+            <h2>{{ album.title }}</h2>
+            <img src="{{ album.img }}">
+            <h2>Detalle del Álbum</h2>
+            <p>Año: {{ album.year }}</p>
+            <fa-icon [icon]="faAmazon"></fa-icon>
+            <!-- Mostrar más detalles aquí -->
+        </div>
+
+        <h2>Lista de Canciones</h2>
+        <ul>
+            <li *ngFor="let song of songList">
+                {{ song.title }} - Letra: <p>
+                    {{ song.lyrics }}
+                </p>
+            </li>
+        </ul>
+    </body>
+
+</div>
