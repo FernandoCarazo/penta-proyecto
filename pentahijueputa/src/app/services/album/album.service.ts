@@ -29,8 +29,8 @@ export class AlbumService {
     title: 'Pura vida pura muerte', 
     year: 2023,
     img: '/assets/img/discografia/puravida.jpg' ,
-    amazon: 'https://distrokid.com/hyperfollow/pentahijueputa/pura-vida-pura-muerte',
-    spotify: 'https://open.spotify.com/album/4p2kft2psAQZZ4KUNwZFoC?si=zi7leUSLRladsYIuOkOLKA',
+    amazon: 'https://www.amazon.com/dp/B0CJBJ9Y2C/ref=sr_1_1?crid=2H16VL7VXN6ZK&keywords=pentahijueputa&qid=1695257588&sprefix=pentahijueputa%2Caps%2C147&sr=8-1',
+    spotify: 'https://open.spotify.com/album/0C5ohoEuH7awi7bDjsXKVx?si=pAZv36I6Qm-7TwzeA60LAQ',
     review: 'asdasdadad'
 
   },

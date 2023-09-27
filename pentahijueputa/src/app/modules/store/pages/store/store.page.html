@@ -1,49 +1,10 @@
 <div class="padding">
-    <h1>TIENDA</h1>
-
-    <div class="row">
-        <div class="column">
+    <div class="gallery">
+        <div *ngFor="let item of items">
             <figure>
-                <img src="assets\img\chemas\feminazi.png" alt="chema">
+                <img src="{{item.img}}" />
             </figure>
-            <h3>Product</h3>
-            <p>PRICE</p>
-        </div>
-        <div class="column">
-            <figure>
-                <img src="assets\img\chemas\feminazi.png" alt="chema">
-            </figure>
-            <h3>Product</h3>
-            <p>PRICE</p>
-        </div>
-        <div class="column">
-            <figure>
-                <img src="assets\img\chemas\feminazi.png" alt="chema">
-            </figure>
-            <h3>Product</h3>
-            <p>PRICE</p>
-        </div>
-        <div class="column">
-            <figure>
-                <img src="assets\img\chemas\feminazi.png" alt="chema">
-            </figure>
-            <h3>Product</h3>
-            <p>PRICE</p>
-        </div>
-        <div class="column">
-            <figure>
-                <img src="assets\img\chemas\feminazi.png" alt="chema">
-            </figure>
-            <h3>Product</h3>
-            <p>PRICE</p>
-        </div>
-        <div class="column">
-            <figure>
-                <img src="assets\img\chemas\feminazi.png" alt="chema">
-            </figure>
-            <h3>Product</h3>
-            <p>PRICE</p>
+            <h3>{{item.title}}</h3>
+            <p>{{ item.price }}</p>
         </div>
     </div>
-
-</div>

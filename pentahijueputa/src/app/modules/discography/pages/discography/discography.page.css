@@ -15,8 +15,8 @@
 
 .gallery img {
     width: 100%;
-    max-width: 380px;
-    height: 300px;
+    width: 380px;
+    height: 350px;
     object-fit: cover;
     border-radius: 8px;
     opacity: 0.5;
@@ -25,9 +25,4 @@
 
 a img:hover {
     opacity: 1;
-}
-
-.gallery::after {
-    content: "";
-    width: 350px;
 }

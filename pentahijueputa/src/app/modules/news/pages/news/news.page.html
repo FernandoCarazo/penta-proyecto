@@ -1,16 +1,15 @@
 <div class="padding">
-    <header class="header">
-        <h1>css flexbox photo gallery</h1>
-    </header>
     <div class="gallery">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg">
-        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg">
+        <div class="new">
+            <div *ngFor="let new of news">
+                <a [routerLink]="[new.id]">
+                    <h1>{{ new.title }}</h1>
+                </a>
+                <a [routerLink]="[new.id]">
+                    <p>{{ new.date }}</p>
+                </a>
+                <a [routerLink]="[new.id]"><img src="{{new.img1}}"></a>
+            </div>
+        </div>
+
     </div>
-</div>
