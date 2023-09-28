@@ -9,22 +9,22 @@ export class HomePage {
   images = [
     {
       imageSrc:
-        '/assets/img/slideshow/1.png',
+        'assets/img/slideshow/1.png',
         imageAlt: '1'
     },
     {
       imageSrc:
-        '/assets/img/slideshow/2.png',
+        'assets/img/slideshow/2.png',
         imageAlt: '3'
     },
     {
       imageSrc:
-        '/assets/img/slideshow/3.png',
+        'assets/img/slideshow/3.png',
         imageAlt: '3'
     },
     {
       imageSrc:
-        '/assets/img/slideshow/4.png',
+        'assets/img/slideshow/4.png',
         imageAlt: '4'
     },
 

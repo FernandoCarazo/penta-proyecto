@@ -10,7 +10,7 @@ export class AlbumService {
     { id: '1', 
     title: 'Héroes Nacionales', 
     year: 2023, 
-    img: '/assets/img/discografia/heroes.jpg',
+    img: 'assets/img/discografia/heroes.jpg',
     amazon: 'https://www.amazon.com/dp/B0CB78NQ26/ref=sr_1_8?crid=BUOGJNFTYN50&keywords=pentahijueputa&qid=1693517633&sprefix=pentahijueputa%2Caps%2C138&sr=8-8',
     spotify: 'https://open.spotify.com/album/4p2kft2psAQZZ4KUNwZFoC?si=zi7leUSLRladsYIuOkOLKA',
     review:'Yugensillo reseña: Con este disco los jóvenes se dieron a conocer a una Costa Rica que desconocía completamente lo que estaba apunto de presenciar héroes nacionales sin duda es uno de los mejores trabajos debut de una de las mejores bandas ticas sin embargo debemos de decir que su sonido no es el mejor aunque teniendo en cuenta las latas donde vivimos los costarricenses no me extraña que tenga sonido de matadero de gallinas 10/10 IGN'
@@ -19,7 +19,7 @@ export class AlbumService {
   { id: '2', 
     title: 'Culebra Cobra', 
     year: 2023, 
-    img: '/assets/img/discografia/culebra.jpg',
+    img: 'assets/img/discografia/culebra.jpg',
     amazon: 'https://www.amazon.com/dp/B0CF4VQB2R/ref=sr_1_1?crid=BUOGJNFTYN50&keywords=pentahijueputa&marketplaceId=ATVPDKIKX0DER&musicTerritory=US&qid=1693517740&sprefix=pentahijueputa%2Caps%2C138&sr=8-1&trackAsin=B0CF4VQB2R',
     spotify: 'https://open.spotify.com/album/4p2kft2psAQZZ4KUNwZFoC?si=zi7leUSLRladsYIuOkOLKA',
     review: 'Yugensillo reseña: Sinceramente se nota la evolución musicalmente que ha tenido esta banda, la ejecución musical de esta pieza es sencillamente incomparable a su anterior trabajo, se nota el empeño que se le ha otorgado crónicamente a este nuevo sencillo, el cual me ha dejado realmente con la boca abierta de lo genial que es, 10/10 IGN'
@@ -28,7 +28,7 @@ export class AlbumService {
   { id: '3', 
     title: 'Pura vida pura muerte', 
     year: 2023,
-    img: '/assets/img/discografia/puravida.jpg' ,
+    img: 'assets/img/discografia/puravida.jpg' ,
     amazon: 'https://www.amazon.com/dp/B0CJBJ9Y2C/ref=sr_1_1?crid=2H16VL7VXN6ZK&keywords=pentahijueputa&qid=1695257588&sprefix=pentahijueputa%2Caps%2C147&sr=8-1',
     spotify: 'https://open.spotify.com/album/0C5ohoEuH7awi7bDjsXKVx?si=pAZv36I6Qm-7TwzeA60LAQ',
     review: 'Yugensillo reseña: Es para mí un agrado anunciar que pentahijueputa ha sacado uno de uno de los mejores álbumes que podemos escuchar en este 2023, una de las obras de arte más costarricenses y poderosas que podemos apreciar en esta época sin duda el metal costarricense ha llegado a un punto de epítome total en el que podemos ver nuevas bandas surgiendo y llegando a lugares que no nos podemos imaginar, con este álbum se va a notar la gran habilidad que tienen estos muchachos para crear música que no se rompa los tímpanos y que amemos con todo nuestro ser 10/10 IGN'

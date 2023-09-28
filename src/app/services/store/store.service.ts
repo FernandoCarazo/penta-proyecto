@@ -14,13 +14,13 @@ export class StoreService {
     {
       id: '2',
       title: 'Pura vida pura muerte CD',
-      img: '/assets/img/tienda/puravidaCD.jpg',
+      img: 'assets/img/tienda/puravidaCD.jpg',
       price: '₡2500 + Envío'
     },
     {
       id: '3',
       title: 'Penta machete',
-      img: '/assets/img/tienda/machete.png',
+      img: 'assets/img/tienda/machete.png',
       price: '₡300.000 + Envío a caballo'
     }
   ]
