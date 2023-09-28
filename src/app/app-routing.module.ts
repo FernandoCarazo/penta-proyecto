@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes} from '@angular/router';
+
+
 import { MainLayout } from '@shared/layouts/main/main.layout';
 
 
@@ -34,8 +36,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{
-    scrollPositionRestoration: 'enabled'
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'enabled',
+    useHash: true
   })],
   exports: [RouterModule],
   
