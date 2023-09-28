@@ -109,13 +109,13 @@
     font-size: 35px;
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 800px) {
     .carousel-container img.image-active {
         display: block;
-        width: 380px;
-        height: 100px;
+        width: 100%px;
+        height: 70%;
         min-height: 300px;
-
     }
 
     .carousel-container {
