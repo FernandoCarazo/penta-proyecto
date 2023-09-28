@@ -1,7 +1,0 @@
-<div class="padding">
-    <div class="gallery">
-        <div *ngFor="let album of albums">
-            <a [routerLink]="[album.id]"><img src="{{ album.img }}"></a>
-            <p>{{ album.title }}</p>
-        </div>
-    </div>

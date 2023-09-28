@@ -1,0 +1,93 @@
+<header id="header" [ngClass]="{'sticky': isSticky}">
+
+    <figure class="img-container">
+        <a routerLink="/">
+
+            <img src="assets\img\pentahijueputa.png" alt="Pentahijueputa" />
+        </a>
+    </figure>
+    <nav>
+        <ul class="header-links">
+            <li>
+                <a routerLink="/noticias">NOTICIAS</a>
+            </li>
+            <li>
+                <a routerLink="/tienda">TIENDA</a>
+            </li>
+            <li>
+                <a routerLink="/discografia">DISCOGRAFIA</a>
+            </li>
+        </ul>
+
+        <ul class="header-socials">
+            <li>
+                <a href="https://www.instagram.com/pentahijueputa/" target="_blank"><fa-icon
+                        [icon]="faInstagram"></fa-icon></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@pentahijueputa" target="_blank"><fa-icon
+                        [icon]="faTiktok"></fa-icon></a>
+
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@Pentahijueputa" target="_blank"><fa-icon
+                        [icon]="faYoutube"></fa-icon></a>
+            </li>
+
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
+
+<footer class="footer">
+    <article class="left-footer">
+        <h3>
+            NOSOTROS
+        </h3>
+        <p>Considerados creadores del "metal autista". Pentahijueputa lucha por hacer metal cada vez más esquizofrenico
+            y bizarro, coleccionando a lo largo de su carrera varios discos de oro y muchos estadios llenos al rededor
+            del mundo. Sacan piezas nuevas cada vez que se quedan sin fluoxetina
+        </p>
+        <ul class="footer-socials">
+            <li>
+                <a href="https://www.instagram.com/pentahijueputa/" target="_blank"><fa-icon
+                        [icon]="faInstagram"></fa-icon></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@pentahijueputa" target="_blank"><fa-icon
+                        [icon]="faTiktok"></fa-icon></a>
+
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@Pentahijueputa" target="_blank"><fa-icon
+                        [icon]="faYoutube"></fa-icon></a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/artist/1M8Ln3swdcASdve8429A2m?si=aLmSHp9ESpemQi_sNtBz_A&nd=1"
+                    target="_blank"><fa-icon [icon]="faSpotify"></fa-icon></a>
+            </li>
+
+        </ul>
+    </article>
+
+    <article class="right-footer">
+        <h3>
+            NOTICIAS
+        </h3>
+        <ul class="news">
+            <li class="new">
+                <a routerLink="/noticias"><fa-icon [icon]="faCalendar"></fa-icon>CHIVO EN
+                    MUNCHEESE</a>
+            </li>
+            <li class="new">
+                <a routerLink="/noticias"><fa-icon [icon]="faCalendar"></fa-icon>PENTAHIJUEPUTA CON PICHA</a>
+            </li>
+        </ul>
+
+    </article>
+
+</footer>

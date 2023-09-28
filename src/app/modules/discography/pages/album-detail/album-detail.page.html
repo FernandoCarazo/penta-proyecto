@@ -1,0 +1,32 @@
+<div class="padding">
+
+    <body>
+        <div *ngIf="album">
+            <div class="page-header">
+                <h1>{{ album.title }}</h1>
+                <img src="{{ album.img }}" class="albumCover">
+                <h2>Info/Comprar: {{ album.title }}</h2>
+                <a href={{album.amazon}} class="amazon"><fa-icon [icon]="faAmazon"></fa-icon></a>
+            </div>
+
+            <div class="albumDetails">
+                <p>-Lanzamiento: {{ album.year }}</p>
+                <p>-{{album.review}}</p>
+            </div>
+        </div>
+
+
+        <div class="songs">
+            <ul>
+                <li class="song" *ngFor="let song of songList">
+                    <h3>{{song.number}}. {{ song.title.toUpperCase()}}</h3>
+                    <p style="white-space: pre;">
+                        {{ song.lyrics }}
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </body>
+
+</div>
