@@ -18,6 +18,10 @@ body {
 .padding {
     padding-top: 250px;
     padding-bottom: 80px;
+    display: flex;
+    min-height: 75vh;
+    flex-direction: column;
+    margin-top: auto;
 }
 
 body::-webkit-scrollbar-thumb {
